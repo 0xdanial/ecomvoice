@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "api/sensay/chat.ts": {
+      "maxDuration": 30
+    },
+    "api/sensay/history.ts": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
