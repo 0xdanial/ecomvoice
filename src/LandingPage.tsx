@@ -81,7 +81,9 @@ const LandingPage = () => {
                 <span>Test With Custom URL</span>
               </button>
               
-              <button className="group px-8 py-4 backdrop-blur-xl bg-white/10 border-2 border-blue-400/50 rounded-2xl text-white font-semibold text-lg transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:border-blue-400 flex items-center space-x-3 min-w-[200px]">
+              <button 
+              onClick={() => open('https://ecomvoice-test-store.vercel.app/products', '_blank')}
+              className="group px-8 py-4 backdrop-blur-xl bg-white/10 border-2 border-blue-400/50 rounded-2xl text-white font-semibold text-lg transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:border-blue-400 flex items-center space-x-3 min-w-[200px]">
                 <ShoppingCart className="w-6 h-6" />
                 <span>Test in Store</span>
               </button>
